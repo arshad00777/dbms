@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2 class="mb-4">Dashboard</h2>
+<div class="row g-3">
+  {% for key, value in stats.items() %}
+  <div class="col-md-3">
+    <div class="card shadow-sm border-0">
+      <div class="card-body text-center">
+        <div class="display-6 text-primary">{{ value }}</div>
+        <div class="text-muted text-uppercase small">{{ key }}</div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  </div>
+{% endblock %}
+
