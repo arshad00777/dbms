@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="text-center py-5">
+  <img src="{{ url_for('static', filename='img/logo.svg') }}" height="80" class="mb-3">
+  <h1 class="display-5">Welcome to the Hospital Management System</h1>
+  <p class="lead">Please <a href="{{ url_for('auth.login') }}">log in</a> to continue.</p>
+  <p class="small text-muted">Use the seeded admin: <code>admin / admin123</code> (after seeding).</p>
+  </div>
+{% endblock %}
+

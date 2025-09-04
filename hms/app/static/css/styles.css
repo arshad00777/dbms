@@ -1,0 +1,14 @@
+body {
+  background: linear-gradient(180deg, #f8fbff 0%, #f3f6ff 100%);
+}
+.navbar-brand span {
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+.card {
+  border-radius: 12px;
+}
+.btn-primary {
+  background: #2c6bed;
+}
+
